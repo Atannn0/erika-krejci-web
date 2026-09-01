@@ -1,0 +1,62 @@
+/* Self-hosted fonts, custom-subset to guarantee full Czech diacritic
+   support (č, ď, ě, ň, ř, š, ť, ů, ž, …). Each file is a single face
+   with no unicode-range splitting, so there is no risk of the browser
+   picking a fallback system font mid-word for accented capitals. */
+
+/* --- Mulish (body text) --- */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/mulish-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/mulish-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/mulish-700.woff2') format('woff2');
+}
+
+/* --- Playfair Display (headings) --- */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/playfair-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/playfair-400-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/playfair-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/playfair-700.woff2') format('woff2');
+}

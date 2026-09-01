@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mgr. et Bc. Erika Krejčí, zdravotně-pohybová terapeutka a speciální pedagožka. Spirální stabilizace SPS, zdravotní cvičení, manuální techniky a paměťové techniky v Praze.">
+  <title>Mgr. et Bc. Erika Krejčí | Zdravotně-pohybová terapie a spirální stabilizace SPS</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="preload" href="fonts/mulish-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/playfair-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#uvod" class="logo" aria-label="Mgr. Erika Krejčí, úvod">
+        <img src="img/logo.png" alt="Logo Mgr. Erika Krejčí" class="logo__icon">
+        <div class="logo__text">
+          <span class="logo__name">Mgr. Erika Krejčí</span>
+          <span class="logo__tagline">Zdravotní cvičení · Spirální stabilizace SPS · Manuální techniky</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Hlavní navigace">
+        <ul class="nav__list">
+          <li><a href="#uvod" class="nav__link">Úvod</a></li>
+          <li><a href="#sluzby" class="nav__link">Služby</a></li>
+          <li><a href="#workshopy" class="nav__link">Workshopy</a></li>
+          <li><a href="#o-mne" class="nav__link">O mně</a></li>
+          <li><a href="#spoluprace" class="nav__link">Spolupráce</a></li>
+        </ul>
+      </nav>
+
+      <a href="#kontakt" class="btn btn--primary header__cta">Objednat konzultaci</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="uvod">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Tělo v pohybu. Mysl v <em>rovnováze.</em>
+          </h1>
+          <p class="hero__text">
+            Jsem zdravotně-pohybová terapeutka a speciální pedagožka. Pomáhám dětem, dospělým i seniorům najít cestu ke zdravému pohybu, úlevě od bolesti a rovnováze těla i mysli prostřednictvím spirální stabilizace SPS, manuálních technik a cvičení šitého na míru.
+          </p>
+          <div class="hero__actions">
+            <a href="#kontakt" class="btn btn--primary">Objednat konzultaci</a>
+            <a href="#o-mne" class="btn btn--outline">Více o mně</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="img/erika-krejci-terapie.jpg" alt="Mgr. Erika Krejčí při terapii s modelem páteře" class="hero__photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="sluzby">
+      <div class="container">
+        <h2 class="section__title">S čím vám mohu pomoci</h2>
+        <div class="services__grid">
+
+          <article class="service-card">
+            <h3 class="service-card__title">Spirální stabilizace SPS</h3>
+            <p class="service-card__text">Cvičení metodou SM systém MUDr. Richarda Smíška. Protahuje páteř, posiluje hluboký stabilizační systém a učí tělo správným pohybovým návykům. Vedu výhradně individuálně, včetně poradenství.</p>
+            <button type="button" class="service-card__link" data-modal="sps">Více informací →</button>
+          </article>
+
+          <article class="service-card">
+            <h3 class="service-card__title">Zdravotně-kompenzační cvičení</h3>
+            <p class="service-card__text">Cvičení sestavené na míru podle aktuálního stavu pohybového aparátu. Vhodné při bolestech zad, skolióze, výhřezu ploténky, oslabeném dně pánevním i po porodu.</p>
+            <button type="button" class="service-card__link" data-modal="cviceni">Více informací →</button>
+          </article>
+
+          <article class="service-card">
+            <h3 class="service-card__title">Manuální techniky a lymfodrenáž</h3>
+            <p class="service-card__text">Odborná anatomická masáž zaměřená na uvolnění triggerpointů, svalových spasmů a zjizvených tkání. Pomáhá obnovit správnou funkci pohybového aparátu.</p>
+            <button type="button" class="service-card__link" data-modal="manualni">Více informací →</button>
+          </article>
+
+          <article class="service-card">
+            <h3 class="service-card__title">Diagnostika a poradenství</h3>
+            <p class="service-card__text">Vstupní vyšetření a individuální doporučení, díky kterým přesně víme, na co se v cvičení zaměřit a jak dosáhnout viditelných výsledků.</p>
+            <button type="button" class="service-card__link" data-modal="diagnostika">Více informací →</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Workshops -->
+    <section class="workshops section section--alt" id="workshopy">
+      <div class="container">
+        <div class="workshops__header">
+          <div class="workshops__intro">
+            <h2 class="section__title">Workshopy a semináře</h2>
+            <p class="workshops__text">Kromě individuálního cvičení pořádám i workshopy a přednášky pro širší veřejnost, školy i firmy, od autogenního tréninku po paměťové techniky pro každý věk.</p>
+            <a href="#kontakt" class="btn btn--outline">Domluvit workshop</a>
+          </div>
+        </div>
+
+        <div class="workshops__grid">
+          <article class="workshop-card">
+            <img src="img/workshop-skupinove-cviceni.jpg" alt="Skupinové zdravotní cvičení na workshopu" class="workshop-card__image">
+            <span class="workshop-card__tag">Skupinový workshop</span>
+            <h3 class="workshop-card__title">Autogenní trénink</h3>
+            <p class="workshop-card__text">Technika hlubokého uvolnění a zvládání stresu, kterou se krok za krokem naučíte přímo na workshopu.</p>
+            <button type="button" class="workshop-card__link" data-modal="autogenni">Více informací →</button>
+          </article>
+
+          <article class="workshop-card">
+            <img src="img/workshop-prednaska-skupina.jpg" alt="Přednáška pro skupinu účastníků workshopu" class="workshop-card__image">
+            <span class="workshop-card__tag">Skupinový workshop</span>
+            <h3 class="workshop-card__title">Paměťové techniky</h3>
+            <p class="workshop-card__text">Praktické techniky na trénink paměti vhodné pro každý věk, skvělá prevence i v seniorském věku.</p>
+            <button type="button" class="workshop-card__link" data-modal="pamet">Více informací →</button>
+          </article>
+
+          <article class="workshop-card">
+            <img src="img/workshop-nordic-walking-skupina.jpg" alt="Skupina účastníků workshopu Nordic walking v přírodě" class="workshop-card__image">
+            <span class="workshop-card__tag">Workshop na míru</span>
+            <h3 class="workshop-card__title">Workshop pro vaši organizaci</h3>
+            <p class="workshop-card__text">Ráda připravím přednášku nebo workshop na míru pro školu, firmu či organizaci, podobně jako v rámci Dnů zdraví nebo Kavárny pro seniory.</p>
+            <button type="button" class="workshop-card__link" data-modal="organizace">Domluvit se →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="o-mne">
+      <div class="container about__inner">
+        <div class="about__content">
+          <h2 class="section__title">O mně</h2>
+          <blockquote class="about__quote">
+            „Vadou těla se duše nezohaví, ale krásou duše se zdobí i tělo.“
+            <cite>Lucius Annaeus Seneca</cite>
+          </blockquote>
+          <p class="about__text">Profesí jsem zdravotně-pohybová terapeutka (sportovní a kondiční specialistka) a speciální pedagožka. Ve své praxi i studiu se dlouhodobě věnuji problematice pohybového aparátu napříč všemi věkovými kategoriemi, u dětí, dospělých i seniorů.</p>
+          <p class="about__text">Specializuji se na skoliózu, vadné držení těla, výhřezy plotének, plochonoží, diastázu a poruchy pánevního dna, potíže kolen a kyčlí i na těhotenství, stavy po porodu nebo císařském řezu. Zaměřuji se také na zjizvené tkáně po operacích a porodu, a to u klientů všech věkových kategorií.</p>
+          <p class="about__text">Druhým rokem učím obor Zdravotní tělesná výchova na soukromé vysoké škole VŠTVS Palestra (1. ročník fyzioterapie). Na základě dlouholeté praxe a studia se snažím poskytovat svým klientům komplexní odbornou péči o pohybový aparát.</p>
+
+          <div class="about__credentials">
+            <h3 class="about__credentials-title">Vzdělání a certifikace</h3>
+            <ul class="about__credentials-list">
+              <li>Nejvyšší úroveň v metodě SM systém u MUDr. Richarda Smíška</li>
+              <li>Lektorka metody SM systém a Nordic walking</li>
+              <li>Viscerální techniky a svalové řetězce</li>
+              <li>Víceúrovňový kurz tejpování KTM 1 až 4</li>
+              <li>Lymfodrenáž a manuální techniky</li>
+              <li>Vzdělání v oblasti zjizvených tkání u Dr. Roberta Schleipa (Německo)</li>
+              <li>Relaxačně-symbolická technika a nejvyšší stupeň autogenního tréninku</li>
+              <li>Aktivizační pracovník, akreditovaný výcvik Asociace paměti</li>
+            </ul>
+          </div>
+
+          <p class="about__text">Aktuálně se věnuji i vlastní odborné práci v oblasti paliativní péče a speciální pedagogiky.</p>
+          <a href="#kontakt" class="btn btn--outline">Domluvit konzultaci</a>
+        </div>
+        <div class="about__image">
+          <img src="img/erika-krejci-prednaska.jpg" alt="Mgr. Erika Krejčí při přednášce" class="about__photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners section section--alt" id="spoluprace">
+      <div class="container">
+        <h2 class="section__title section__title--center">Spolupracuji s</h2>
+        <ul class="partners__list">
+          <li class="partners__item">PRE distribuce</li>
+          <li class="partners__item">Dům čtení Praha 10</li>
+          <li class="partners__item">Dexter Academy</li>
+          <li class="partners__item">VŠTVS Palestra</li>
+          <li class="partners__item">CK Capro</li>
+          <li class="partners__item">Agentura KUKR</li>
+          <li class="partners__item">Nadační fond Hippokrates</li>
+          <li class="partners__item">FN Královské Vinohrady</li>
+          <li class="partners__item">MČ Praha-Kolovraty</li>
+          <li class="partners__item">MČ Praha-Chabry</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="kontakt">
+      <div class="container">
+        <h2 class="section__title section__title--center">Kontakt</h2>
+        <div class="contact__inner">
+
+          <div class="contact__info">
+            <div class="contact__item">
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <span class="contact__label">Telefon</span>
+                <a href="tel:+420724662747" class="contact__value">+420 724 662 747</a>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <span class="contact__label">E-mail</span>
+                <a href="mailto:erika.havlasova@seznam.cz" class="contact__value">erika.havlasova@seznam.cz</a>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <div>
+                <span class="contact__label">Provozovna</span>
+                <span class="contact__value">Hostivařská 133/64, 102 00 Praha 10, Hostivař</span>
+              </div>
+            </div>
+
+            <div class="contact__map" id="contactMap" data-map-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.6964108514167!2d14.529740576564569!3d50.05451817151929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b93830efd0501%3A0x8461b1f9ef565a7b!2zTWdyLkVyaWthIEtyZWrEjcOt!5e0!3m2!1sen!2scz!4v1788268727471!5m2!1sen!2scz" data-map-title="Mapa – provozovna Mgr. Erika Krejčí, Hostivařská 64, Praha 10">
+              <div class="contact__map-placeholder" id="contactMapPlaceholder">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+                <p>Zobrazení mapy vyžaduje souhlas s cookies třetí strany (Google).</p>
+                <button type="button" class="btn btn--outline" id="contactMapConsentBtn">Zobrazit mapu</button>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form" id="contactForm" action="https://formspree.io/f/mwlklzlr" method="POST" novalidate>
+            <div class="form-group">
+              <label for="name" class="form-label">Jméno a příjmení</label>
+              <input type="text" id="name" name="name" class="form-input" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" id="email" name="email" class="form-input" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Telefon</label>
+              <input type="tel" id="phone" name="phone" class="form-input" autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Vaše zpráva</label>
+              <textarea id="message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+            </div>
+
+            <input type="hidden" name="_subject" id="formSubject" value="Dotaz z webu">
+            <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <button type="submit" class="btn btn--primary btn--full">Odeslat zprávu</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-note">Odesláním formuláře souhlasíte se zpracováním osobních údajů za účelem vyřízení dotazu. Více informací najdete v <a href="ochrana-osobnich-udaju.html">zásadách ochrany osobních údajů</a>.</p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+          <div class="footer__brand">
+        <a href="#uvod" class="logo logo--footer" aria-label="Mgr. Erika Krejčí, úvod">
+          <img src="img/logo.png" alt="Logo Mgr. Erika Krejčí" class="logo__icon">
+          <div class="logo__text">
+            <span class="logo__name">Mgr. Erika Krejčí</span>
+            <span class="logo__tagline">Zdravotní cvičení · Spirální stabilizace SPS · Manuální techniky</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="footer__links">
+        <h3 class="footer__heading">Rychlé odkazy</h3>
+        <ul class="footer__list">
+          <li><a href="#uvod">Úvod</a></li>
+          <li><a href="#sluzby">Služby</a></li>
+          <li><a href="#workshopy">Workshopy</a></li>
+          <li><a href="#o-mne">O mně</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h3 class="footer__heading">Kontakt</h3>
+        <ul class="footer__list">
+          <li><a href="tel:+420724662747">+420 724 662 747</a></li>
+          <li><a href="mailto:erika.havlasova@seznam.cz">erika.havlasova@seznam.cz</a></li>
+          <li>Provozovna: Hostivařská 133/64, 102 00 Praha 10, Hostivař</li>
+          <li>Místo podnikání: Pod strání 2167/24, 100 00 Praha 10, Strašnice</li>
+          <li>IČ: 68088931</li>
+          <li>Zapsána v živnostenském rejstříku vedeném Úřadem městské části Praha 10.</li>
+        </ul>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__heading">Sledujte mě</h3>
+        <div class="footer__social-links">
+          <a href="#" class="footer__social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2026 Mgr. et Bc. Erika Krejčí. Všechna práva vyhrazena.</p>
+        <a href="ochrana-osobnich-udaju.html" class="footer__bottom-link">Ochrana osobních údajů</a>
+        <button type="button" class="footer__bottom-link footer__bottom-link--btn" id="cookieSettingsLink">Nastavení cookies</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Info modal (obsah se plní dynamicky přes JS podle data-modal atributu) -->
+  <div class="modal" id="infoModal" hidden>
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button type="button" class="modal__close" data-modal-close aria-label="Zavřít">&times;</button>
+      <h3 class="modal__title" id="modalTitle"></h3>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Cookie lišta: souhlas s cookies třetích stran (Google Maps) -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Nastavení cookies" hidden>
+    <div class="cookie-banner__inner">
+      <p class="cookie-banner__text">
+        Tento web sám o sobě používá pouze technicky nezbytné soubory. V sekci Kontakt je ale mapa od Google, která
+        po zobrazení může uložit cookies třetí strany a předat Google technické údaje (např. IP adresu). Bez vašeho
+        souhlasu se mapa nenačte. Více v <a href="ochrana-osobnich-udaju.html">zásadách ochrany osobních údajů</a>.
+      </p>
+      <div class="cookie-banner__actions">
+        <button type="button" class="btn btn--outline cookie-banner__btn" id="cookieReject">Odmítnout</button>
+        <button type="button" class="btn btn--primary cookie-banner__btn" id="cookieAccept">Přijmout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
