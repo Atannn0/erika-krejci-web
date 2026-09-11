@@ -548,6 +548,22 @@ ul {
   opacity: 0.7;
 }
 
+.partners__item a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition), opacity var(--transition);
+}
+
+.partners__item a:hover {
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+.about__text a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 /* --- Contact --- */
 .contact__inner {
   display: grid;
@@ -769,6 +785,20 @@ a.contact__value:hover {
   border-color: var(--color-white);
 }
 
+.footer__web-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.875rem;
+  color: var(--color-white);
+  opacity: 0.8;
+  text-decoration: underline;
+  transition: opacity var(--transition);
+}
+
+.footer__web-link:hover {
+  opacity: 1;
+}
+
 .footer__bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding: 20px 0;
@@ -976,7 +1006,6 @@ a.contact__value:hover {
   }
 
   .hero__image {
-    order: -1;
     max-width: 320px;
     margin: 0 auto;
   }

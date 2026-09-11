@@ -119,7 +119,8 @@
       title: 'Manuální techniky a lymfodrenáž',
       body: [
         'Manuální techniky slouží k odborné anatomické masáži, která cíleně uvolní svalové spasmy, triggerpointy, tenderpointy, měkké tkáně i blokády páteře. Využívám k tomu speciální trakční pásy, odborné techniky a pomůcky.',
-        'Cílem je zlepšit funkci pohybového aparátu, aby mohl normálně fungovat. Zaměřuji se také na zjizvené tkáně po operacích a porodu, a to u klientů všech věkových kategorií.'
+        'Cílem je zlepšit funkci pohybového aparátu, aby mohl normálně fungovat. Zaměřuji se také na zjizvené tkáně po operacích a porodu, a to u klientů všech věkových kategorií.',
+        'Součástí nabídky jsou i dechová cvičení a relaxační techniky, včetně autogenního tréninku a Jacobsonovy progresivní relaxace.'
       ]
     },
     diagnostika: {
